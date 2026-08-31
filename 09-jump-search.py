@@ -9,7 +9,7 @@ def jump_search(arr, target):
     previous = 0
 
     # Jump until we reach or pass the target
-    while previous < n and arr[min(step, n) - 1] < target:
+    while previous < n and arr[min(step, n) - 1] < target:#min() simply returns the smaller of the two values.
         previous = step
         step += int(math.sqrt(n))
 
