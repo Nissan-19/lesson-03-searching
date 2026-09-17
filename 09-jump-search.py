@@ -1,6 +1,5 @@
 import math
 
-
 def jump_search(arr, target):
     n = len(arr)
 
